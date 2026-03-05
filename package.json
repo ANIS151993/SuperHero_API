@@ -1,0 +1,23 @@
+{
+  "name": "superhero-card-generator",
+  "version": "1.0.0",
+  "description": "Interactive SuperHero character explorer built with local JSON data",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "pull:superhero": "node scripts/pull-superhero-characters.mjs"
+  },
+  "keywords": [
+    "superhero",
+    "api",
+    "javascript",
+    "superheroapi"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

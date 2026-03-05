@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SuperHero API</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Animated background particles -->
+    <div class="bg-particles">
+      <span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span>
+    </div>
+
+    <div class="container">
+      <!-- Header -->
+      <div class="header">
+        <div class="superhero-badge">SUPERHERO</div>
+        <h1 class="app-title">Character Explorer</h1>
+        <p class="app-subtitle">Search SuperHeroes Across Universes</p>
+      </div>
+
+      <!-- Search -->
+      <div class="search-wrapper">
+        <div class="input-container">
+          <span class="search-icon">&#9906;</span>
+          <input type="text" class="input" value="Batman" id="input-box" placeholder="Search superhero..." />
+          <button class="button" id="submit-button">
+            <span class="btn-text">Search</span>
+            <span class="btn-arrow">&#8594;</span>
+          </button>
+        </div>
+        <div class="list" id="autocomplete-list"></div>
+      </div>
+
+      <!-- Card output -->
+      <div class="display-container" id="show-container"></div>
+
+      <!-- Copyright -->
+      <footer class="copyright">
+        <div class="copyright-divider"></div>
+        <p class="copyright-name">Md Anisur Rahaman Chowdhury</p>
+        <p class="copyright-detail">
+          <a href="mailto:chowdhur014@gannon.edu">chowdhur014@gannon.edu</a>
+        </p>
+        <p class="copyright-detail">Gannon University</p>
+        <p class="copyright-year">&copy; 2026 All Rights Reserved</p>
+      </footer>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>

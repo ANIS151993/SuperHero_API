@@ -1,0 +1,22 @@
+{
+  "name": "superhero-characters-server",
+  "version": "1.0.0",
+  "description": "A RESTful API for managing SuperHero characters",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "dotenv -e .env -- nodemon server.js",
+    "dev": "dotenv -e .env -- nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^8.0.0",
+    "nodemon": "^3.0.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

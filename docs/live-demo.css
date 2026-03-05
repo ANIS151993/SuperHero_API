@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Space Grotesk", sans-serif;
+  color: #f4f7fb;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(23, 136, 255, 0.25), transparent 40%),
+    radial-gradient(circle at 85% 10%, rgba(255, 60, 60, 0.2), transparent 45%),
+    linear-gradient(130deg, #06080f 20%, #0d1424 55%, #161a2b 100%);
+}
+
+.page {
+  width: min(1040px, 92%);
+  margin: 0 auto;
+  padding: 48px 0 64px;
+}
+
+.hero {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 24px;
+  padding: 34px;
+  background: rgba(9, 13, 23, 0.72);
+  backdrop-filter: blur(10px);
+}
+
+.eyebrow {
+  margin: 0;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 3px;
+  font-size: 1.15rem;
+  color: #6db3ff;
+}
+
+h1 {
+  margin: 0.35rem 0 0;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: clamp(2rem, 7vw, 4rem);
+  letter-spacing: 3px;
+}
+
+.subtitle {
+  max-width: 680px;
+  color: #c7d0e3;
+  line-height: 1.7;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 11px 20px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn-primary {
+  color: #fff;
+  background: linear-gradient(120deg, #1788ff, #ff3c3c);
+  box-shadow: 0 10px 30px rgba(23, 136, 255, 0.35);
+}
+
+.btn-ghost {
+  color: #f4f7fb;
+  border: 1px solid rgba(244, 247, 251, 0.26);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.stats {
+  margin-top: 22px;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.stat-card {
+  border-radius: 18px;
+  padding: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(13, 19, 33, 0.7);
+}
+
+.stat-label {
+  margin: 0;
+  font-size: 0.82rem;
+  color: #9eb1d5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.stat-value {
+  margin: 8px 0 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.stat-text {
+  margin: 8px 0 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.roadmap {
+  margin-top: 26px;
+  border-radius: 18px;
+  padding: 20px 22px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(13, 19, 33, 0.7);
+}
+
+.roadmap h2 {
+  margin: 0 0 8px;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2px;
+  font-size: 2rem;
+}
+
+.roadmap ol {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: #d4ddf0;
+  line-height: 1.8;
+}

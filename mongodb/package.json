@@ -1,0 +1,23 @@
+{
+    "name": "mongodb",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "dev": "dotenv -e .env -- nodemon ./seedCharacters.js",
+      "seed": "dotenv -e .env -- nodemon ./seedCharacters.js insert superhero_characters.json",
+      "delete": "dotenv -e .env -- nodemon ./seedCharacters.js delete superhero_characters.json"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+      "dotenv": "^16.4.7",
+      "mongod": "^2.0.0",
+      "mongodb": "^6.12.0",
+      "nodemon": "^3.1.9"
+    },
+    "devDependencies": {
+      "dotenv-cli": "^8.0.0"
+    }
+}

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+*.env
+.DS_Store
+Thumbs.db
+*.Zone.Identifier
+*:Zone.Identifier
+superhero-api/api-data.js
+superhero-generator/api-data.js
+.claude/
+.tools/
